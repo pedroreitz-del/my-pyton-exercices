@@ -1,0 +1,12 @@
+
+#Date: 24/05/2026
+#Simple pyton exercises
+
+#Write a program that takes the names of two fruits, FRUIT-1 and FRUIT-2.
+#Display the name of FRUIT-1 20 times and the name of FRUIT-2 15 times on the screen.
+
+fruit1 = str(input("Name a fruit "))
+fruit2 = str(input("Name another fruit "))
+
+print(fruit1 * 20)
+print(fruit2 * 15)
