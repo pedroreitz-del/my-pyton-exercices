@@ -1,0 +1,12 @@
+
+#Date: 24/05/2026
+#Simple pyton exercises
+
+#Write a program that takes two numbers, N1 and N2.
+#display their sum and the product on the screen
+
+N1 = int(input("choose a number: "))
+N2 = int(input("choose another number: "))
+
+print("the sum of the numbers is: ",N1 + N2)
+print("the product of the numbers is: ",N1 * N2)
