@@ -1,0 +1,12 @@
+
+#Date: 24/05/2026
+#Simple pyton exercises
+
+#Write a program that takes a person's first name, last name, and hair color
+
+name = str(input("what is your first name? "))
+last_name = str(input("what is your last name? "))
+hair_color = str(input("what is your hair color? "))
+
+print("hello", name, last_name, "the color of your hair is", hair_color)
+
