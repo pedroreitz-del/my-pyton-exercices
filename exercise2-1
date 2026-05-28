@@ -1,0 +1,16 @@
+#Date:27/05/2026
+#simple pyton exercises
+
+#Write a program that asks for the speeds of two cars, CAR1 and CAR2.
+#Display on the screen whether CAR1 is faster, slower, or traveling at the same speed as CAR2
+
+car1 = int(input("enter the speed of the first car: "))
+car2 = int(input("enter the speed of the second car: "))
+
+if car1 == car2:
+    print("the cars have the same speed")
+    print(car1,"kilometers per hour")
+elif car1 > car2:
+    print("the first car is", car1 - car2,"km/h faster than the second")
+else:
+    print("the first car is", car2 - car1 ,"km/h slower than the second")
