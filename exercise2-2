@@ -1,0 +1,25 @@
+#Date:31/05/2026
+#simple pyton exercises
+
+#Write a program that asks for the ages of four people. 
+#determines whether the sum of the ages of the first two people is greater than, less than, or equal 
+#to the sum of the ages of the last two people.
+
+person1 = int(input("Enter the age of the first person: "))
+person2 = int(input("Enter the age of the second person: "))
+person3 = int(input("Enter the age of the third person: "))
+person4 = int(input("Enter the age of the fourth person: "))
+
+group1 = person1 + person2
+group2 = person3 + person4
+
+if group1 == group2:
+    print("the groups have the same age")
+elif group1 > group2:
+    print("Group 1 is", group1 - group2,"years older")
+else:
+    print("Group 1 is", group2 - group1,"years younger")
+    
+    
+    
+    
