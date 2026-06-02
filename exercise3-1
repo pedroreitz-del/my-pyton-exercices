@@ -1,0 +1,20 @@
+#date:01/06/2026
+#simple pyton exercises
+
+#Write a program that prompts the user for a password.
+#The user has three attempts to enter the correct password. which is python123.
+#if you enter the wrong password three times, the program will close with the message “Access denied.”
+
+password = "python123"
+attempts = 0
+while attempts < 3:
+    guees = input("Enter your password: ")
+    if guees == password:
+        print("Access granted, welcome")
+        break
+    else:
+        print("Wrong password. Please try again.")
+        attempts += 1
+
+else:
+    print("Access denied, too many attempts")
