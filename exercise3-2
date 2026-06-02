@@ -1,0 +1,17 @@
+#date:01/06/2026
+#simple pyton exercises
+
+#Ask the user to enter several numbers until they type “done”.
+#then the program should calculate and display the sum of the numbers entered.
+
+op = "continue"
+sum = 0
+while op == "continue":
+    option = input("Enter one number (or 'end' to stop):  ")
+    if option == "end":
+        print("the total sum is:", sum)
+        break
+    else:
+        number = int(option)
+        sum += number
+    
